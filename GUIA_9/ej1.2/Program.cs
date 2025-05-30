@@ -97,7 +97,7 @@ namespace ej1._2
                 suma += notasAl[contprom]; 
             }
             prom = 1.0 * (suma / (double)cont);
-            Console.WriteLine($"El promedio de las notas es {prom:f2}\nEl alumno con mayor nota es {almayornota}, número de libreta {nlibmayor} con una nota de {notamayor}\nEl alumno con menor nota es {almenornota}, número de libreta {nlibmenor} con uan nota de {notamenor} ");
+            Console.WriteLine($"El promedio de las notas es {prom:f2}\nEl alumno con mayor nota es {almayornota}, número de libreta {nlibmayor} con una nota de {notamayor}\nEl alumno con menor nota es {almenornota}, número de libreta {nlibmenor} con una nota de {notamenor} ");
             #endregion
         }
     }
