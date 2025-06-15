@@ -94,10 +94,10 @@
             Console.WriteLine("");
             //Búsqueda de un elemento
             int valorAleatorio = elementosVector.Next(1,200);
-            int indiceAEncontrar = Busqueda(arregloQuickSort, valorAleatorio);
+            int indiceAEncontrar = Busqueda(arreglo, valorAleatorio);
             if (indiceAEncontrar != -1)
             {
-                Console.WriteLine($"El numero {valorAleatorio} se encuentra en el índice: {indiceAEncontrar} dentro de la lista ordenada por QuickSort.");
+                Console.WriteLine($"El numero {valorAleatorio} se encuentra en el índice: {indiceAEncontrar} dentro del arreglo original.");
             }
             else
             {
