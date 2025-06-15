@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ej1.2", "ej1.2\ej1.2.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ej1.3", "ej1.3\ej1.3.csproj", "{42296C8C-1A6D-474A-A031-99F394785BD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ej2.1", "ej2.1\ej2.1.csproj", "{46179EC3-8F46-4308-97AE-77919276EB28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prácticas_metodos_ord", "prácticas_metodos_ord\prácticas_metodos_ord.csproj", "{53B799B8-6B06-4427-A9EB-6ACF5A93CE75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{42296C8C-1A6D-474A-A031-99F394785BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42296C8C-1A6D-474A-A031-99F394785BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42296C8C-1A6D-474A-A031-99F394785BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46179EC3-8F46-4308-97AE-77919276EB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46179EC3-8F46-4308-97AE-77919276EB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46179EC3-8F46-4308-97AE-77919276EB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46179EC3-8F46-4308-97AE-77919276EB28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B799B8-6B06-4427-A9EB-6ACF5A93CE75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B799B8-6B06-4427-A9EB-6ACF5A93CE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B799B8-6B06-4427-A9EB-6ACF5A93CE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B799B8-6B06-4427-A9EB-6ACF5A93CE75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
