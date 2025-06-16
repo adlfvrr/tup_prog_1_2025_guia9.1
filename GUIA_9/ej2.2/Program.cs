@@ -51,9 +51,9 @@ namespace ej2._2
         {
             if (indMenor < indMayor)
             {
-                Particion(arreglo, arregloNombres, indMenor, indMayor);
-                QuickSort(arreglo, arregloNombres, indMenor, indMayor - 1);
-                QuickSort(arreglo, arregloNombres, indMayor + 1, indMayor);
+                int pivot = Particion(arreglo, arregloNombres, indMenor, indMayor);
+                QuickSort(arreglo, arregloNombres, indMenor, pivot - 1);
+                QuickSort(arreglo, arregloNombres, pivot + 1, indMayor);
             }
         }
         static void Main(string[] args)
